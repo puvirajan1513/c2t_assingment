@@ -10,6 +10,7 @@ public class EmployeeUtilities {
     // Method to print employee details
     public static void print(Employees employee) {
         System.out.println(employee.empprint());
+        
         System.out.println("-------------------");
     }
 }
