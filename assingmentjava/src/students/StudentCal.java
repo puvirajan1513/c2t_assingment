@@ -1,6 +1,6 @@
 package students;
 
-import java.util.*;
+import java.util.Scanner;
 
 // Student class with default constructor
 class Student {
@@ -11,9 +11,9 @@ class Student {
 
 // Commission class
 class Commission {
-    String name, address, phone;
-    double sales_amount;
-    
+    private String name, address, phone;
+    private double salesAmount;
+
     // Accept details from user
     public void acceptDetails() {
         Scanner s = new Scanner(System.in);
@@ -24,24 +24,23 @@ class Commission {
         System.out.print("Enter Address: ");
         address = s.nextLine();
 
-        
         System.out.print("Enter Phone: ");
         phone = s.nextLine();
 
         System.out.print("Enter Sales Amount: ");
-        sales_amount = s.nextDouble();
+        salesAmount = s.nextDouble();
     }
 
-    // Calculate commission
+    // Calculate and print commission
     public void calculateCommission() {
-        double commission = 0;
+        double commission;
 
-        if (sales_amount >= 100000) {
-            commission = sales_amount * 0.10;
-        } else if (sales_amount >= 50000) {
-            commission = sales_amount * 0.05;
-        } else if (sales_amount >= 30000) {
-            commission = sales_amount * 0.03;
+        if (salesAmount >= 100000) {
+            commission = salesAmount * 0.10;
+        } else if (salesAmount >= 50000) {
+            commission = salesAmount * 0.05;
+        } else if (salesAmount >= 30000) {
+            commission = salesAmount * 0.03;
         } else {
             commission = 0;
         }
@@ -53,7 +52,7 @@ class Commission {
 // Main class
 public class StudentCal {
     public static void main(String[] args) {
-        // Create Student object (default constructor will run)
+        // Create Student object
         Student s1 = new Student();
 
         // Create Commission object and use methods
