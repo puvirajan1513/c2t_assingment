@@ -1,6 +1,6 @@
 package students;
 
-import java.util.Scanner;
+import java.util.*;
 
 // Student class with default constructor
 class Student {
@@ -24,6 +24,7 @@ class Commission {
         System.out.print("Enter Address: ");
         address = s.nextLine();
 
+        
         System.out.print("Enter Phone: ");
         phone = s.nextLine();
 
