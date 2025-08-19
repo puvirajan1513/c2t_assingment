@@ -1,7 +1,5 @@
 package student;
 
-
-
 import java.util.Scanner;
 
 // Student class with default constructor
@@ -18,19 +16,19 @@ class Commission {
 
     // Accept details from user
     public void acceptDetails() {
-        Scanner sc = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
 
         System.out.print("Enter Name: ");
-        name = sc.nextLine();
+        name = s.nextLine();
 
         System.out.print("Enter Address: ");
-        address = sc.nextLine();
+        address = s.nextLine();
 
         System.out.print("Enter Phone: ");
-        phone = sc.nextLine();
+        phone = s.nextLine();
 
         System.out.print("Enter Sales Amount: ");
-        sales_amount = sc.nextDouble();
+        sales_amount = s.nextDouble();
     }
 
     // Calculate commission
