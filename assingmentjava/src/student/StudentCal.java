@@ -13,7 +13,6 @@ class Student {
 class Commission {
     String name, address, phone;
     double sales_amount;
-
     
     // Accept details from user
     public void acceptDetails() {
