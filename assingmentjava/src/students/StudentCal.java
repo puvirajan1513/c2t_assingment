@@ -23,6 +23,7 @@ class Commission {
         name = s.nextLine();
 
         
+        
         System.out.print("Enter Address: ");
         address = s.nextLine();
 
