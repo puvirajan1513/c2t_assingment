@@ -53,7 +53,7 @@ class Commission {
 public class StudentCal {
     public static void main(String[] args) {
         // Create Student object
-        Student s1 = new Student();
+        var s1 = new Student();
 
         // Create Commission object and use methods
         Commission c1 = new Commission();
