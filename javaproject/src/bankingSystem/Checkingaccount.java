@@ -2,6 +2,7 @@ package bankingSystem;
 
 public class Checkingaccount extends Account{
 	private double overdraftLimit = 5000;
+	
 
     public Checkingaccount(String accNum, double balance) {
         super(accNum, balance);

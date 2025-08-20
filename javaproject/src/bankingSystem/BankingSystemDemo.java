@@ -1,6 +1,7 @@
 package bankingSystem;
 
 public class BankingSystemDemo {
+	
 	 public static void main(String[] args) {
 	        SavingAccount sa = new SavingAccount("S001", 1000);
 	        Checkingaccount ca = new Checkingaccount("C001", 2000);

@@ -13,6 +13,7 @@ public class SavingAccount extends Account{
         balance += amount + (amount * interestRate);
     }
 
+    
     @Override
     public void withdraw(double amount) {
         if (balance >= amount) {
