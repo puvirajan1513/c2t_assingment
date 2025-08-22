@@ -4,8 +4,6 @@ public class AirIndia implements Airfare{
 	private int hours;
 	private double costPerHour;
 	
-	public AirIndia() {}
-	
 	 public AirIndia(int hours, double costPerHour) {
 	        this.hours = hours;
 	        this.costPerHour = costPerHour;

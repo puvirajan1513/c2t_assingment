@@ -4,7 +4,7 @@ public class Indigo implements Airfare {
     private int hours;
     private double costPerHour;
 
-    public Indigo() {}
+   
 
     public Indigo(int hours, double costPerHour) {
         this.hours = hours;
