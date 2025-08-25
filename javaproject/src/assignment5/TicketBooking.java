@@ -6,6 +6,7 @@ public class TicketBooking {
     private String customer;
     private Integer noOfSeats;
 
+    
     // Default constructor
     public TicketBooking() {
     }

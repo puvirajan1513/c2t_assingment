@@ -10,6 +10,7 @@ public class Main {
         // Read booking details in CSV format
         String input = sc.nextLine();
         String[] parts = input.split(",");
+        
         String stageEvent = parts[0];
         String customer = parts[1];
         int noOfSeats = Integer.parseInt(parts[2]);
